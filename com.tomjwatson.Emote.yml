@@ -1,6 +1,6 @@
 app-id: com.tomjwatson.Emote
 runtime: org.gnome.Platform
-runtime-version: "44"
+runtime-version: '44'
 sdk: org.gnome.Sdk
 command: emote
 finish-args:
@@ -16,8 +16,8 @@ cleanup:
   - /share/gtk-doc
   - /share/man
   - /share/pkgconfig
-  - "*.la"
-  - "*.a"
+  - '*.la'
+  - '*.a'
 modules:
   - flatpak/python3-requirements.json
   - name: keybinder-3.0
@@ -49,8 +49,8 @@ modules:
       - -Dfishcompletiondir=no
     sources:
       - type: archive
-        url: https://github.com/bugaevc/wl-clipboard/archive/v2.1.0.tar.gz
-        sha256: 72dab9a7d3835c76d6ff2089f15ffec9e064a321e5f3cbbe961a8fa81aff5573
+        url: https://github.com/bugaevc/wl-clipboard/archive/v2.2.0.tar.gz
+        sha256: 414005cfa229d0e54f89a0d9a8473938e4c29adc21a9e556847a4d44ad508874
         x-checker-data:
           type: anitya
           project-id: 49082
@@ -62,5 +62,5 @@ modules:
     buildsystem: meson
     sources:
       - type: git
-        url: "https://github.com/tom-james-watson/Emote"
+        url: https://github.com/tom-james-watson/Emote
         commit: 054bbb54862afa5c10f3403fd330dce620b943b4
