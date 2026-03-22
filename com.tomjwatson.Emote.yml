@@ -1,6 +1,6 @@
 app-id: com.tomjwatson.Emote
 runtime: org.gnome.Platform
-runtime-version: "46"
+runtime-version: '46'
 sdk: org.gnome.Sdk
 command: emote
 finish-args:
@@ -16,8 +16,8 @@ cleanup:
   - /share/gtk-doc
   - /share/man
   - /share/pkgconfig
-  - "*.la"
-  - "*.a"
+  - '*.la'
+  - '*.a'
 modules:
   - flatpak/python3-requirements.json
   - name: keybinder-3.0
@@ -33,8 +33,8 @@ modules:
       - PREFIX=${FLATPAK_DEST}
     sources:
       - type: archive
-        url: https://github.com/jordansissel/xdotool/archive/v3.20211022.1/xdotool-3.20211022.1.tar.gz
-        sha256: 82b15a944a5e82fee15e0f6116bd9f642bc3d0bb6989fc0ca5ad9dfe35de0847
+        url: https://github.com/jordansissel/xdotool/archive/v4.20260303.1/xdotool-4.20260303.1.tar.gz
+        sha256: c1f971a384da588eb99ca0755fc4300316d49c1e612537e3f1de52215e104fa3
         x-checker-data:
           type: anitya
           project-id: 8648
@@ -49,8 +49,8 @@ modules:
       - -Dfishcompletiondir=no
     sources:
       - type: archive
-        url: https://github.com/bugaevc/wl-clipboard/archive/v2.2.1.tar.gz
-        sha256: 6eb8081207fb5581d1d82c4bcd9587205a31a3d47bea3ebeb7f41aa1143783eb
+        url: https://github.com/bugaevc/wl-clipboard/archive/v2.3.0.tar.gz
+        sha256: b4dc560973f0cd74e02f817ffa2fd44ba645a4f1ea94b7b9614dacc9f895f402
         x-checker-data:
           type: anitya
           project-id: 49082
