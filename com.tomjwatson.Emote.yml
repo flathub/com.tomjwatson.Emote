@@ -43,3 +43,5 @@ modules:
       - type: archive
         url: https://github.com/tom-james-watson/Emote/archive/refs/tags/v5.0.1.tar.gz
         sha256: fdbccaf46ef54b59d280967e3a8674108bcf88c1af6a658c50545332dd98eae1
+      - type: patch
+        path: update-screenshots.patch
