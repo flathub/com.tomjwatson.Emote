@@ -41,9 +41,5 @@ modules:
     buildsystem: meson
     sources:
       - type: archive
-        url: https://github.com/tom-james-watson/Emote/archive/refs/tags/v5.0.1.tar.gz
-        sha256: fdbccaf46ef54b59d280967e3a8674108bcf88c1af6a658c50545332dd98eae1
-      - type: patch
-        path: update-screenshots.patch
-      - type: patch
-        path: shorten-description.patch
+        url: https://github.com/tom-james-watson/Emote/archive/refs/tags/v5.1.0.tar.gz
+        sha256: 12cf837a789c1715aa40223750902c3404891ea2f4e19de44506d3ebadc0c510
